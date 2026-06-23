@@ -17,4 +17,4 @@ project-includes = [
 ]
 
 [tool.uv.sources]
-cqlalchemy = { git = "https://github.com/stackable-sh/cqlalchemy" }
+cqlalchemy = { path = "../cqlalchemy/dist/cqlalchemy-3.29.3-py3-none-any.whl" }

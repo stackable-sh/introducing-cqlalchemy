@@ -160,7 +160,7 @@ wheels = [
 [[package]]
 name = "cqlalchemy"
 version = "3.29.3"
-source = { git = "https://github.com/stackable-sh/cqlalchemy#4d33d35bf6771a626fae8e6385420df2a90c2343" }
+source = { git = "https://github.com/stackable-sh/cqlalchemy#49b9bea7df738dd181137716240b3efc3822c0ba" }
 dependencies = [
     { name = "arrow" },
     { name = "babel" },

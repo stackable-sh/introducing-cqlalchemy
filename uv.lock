@@ -181,7 +181,7 @@ dependencies = [
     { name = "wtforms" },
 ]
 wheels = [
-    { filename = "cqlalchemy-3.29.3-py3-none-any.whl", hash = "sha256:916c9a6b55ba0d2ea39935a9775a2ccd35a8a575d68ea1b4dd872a5340a02c35" },
+    { filename = "cqlalchemy-3.29.3-py3-none-any.whl", hash = "sha256:6ce6aa797e6050f23d08fe9b79a3c0154ee7f280df4baaba9a7f4d9bb164445a" },
 ]
 
 [package.metadata]

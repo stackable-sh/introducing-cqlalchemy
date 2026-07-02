@@ -160,7 +160,7 @@ wheels = [
 [[package]]
 name = "cqlalchemy"
 version = "3.29.3"
-source = { path = "../cqlalchemy/dist/cqlalchemy-3.29.3-py3-none-any.whl" }
+source = { git = "https://github.com/stackable-sh/cqlalchemy#8a68c3955a56c62192615be1f45efef98963eda1" }
 dependencies = [
     { name = "arrow" },
     { name = "babel" },
@@ -179,30 +179,6 @@ dependencies = [
     { name = "schema" },
     { name = "uuid-utils" },
     { name = "wtforms" },
-]
-wheels = [
-    { filename = "cqlalchemy-3.29.3-py3-none-any.whl", hash = "sha256:6613cd36093601d11b122b08821116958402e188b2c914adeac96a594a487543" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "arrow", specifier = ">=1.2.3,<2" },
-    { name = "babel", specifier = ">=2.12.1,<3" },
-    { name = "bcrypt", specifier = ">=4.0.1,<5" },
-    { name = "bidict", specifier = ">=0.22.1,<0.23" },
-    { name = "black", specifier = ">=26.3.1" },
-    { name = "blinker", specifier = ">=1.6.2,<2" },
-    { name = "cassandra-driver", specifier = "==3.29.3" },
-    { name = "fire", specifier = ">=0.7.1" },
-    { name = "lz4", specifier = ">=4.3.2,<5" },
-    { name = "marshmallow", specifier = ">=3.26.2" },
-    { name = "multidict", specifier = ">=6.7.0" },
-    { name = "orjson", specifier = ">=3.11.6" },
-    { name = "python-snappy", specifier = ">=0.7.3" },
-    { name = "rich", specifier = ">=15.0.0" },
-    { name = "schema", specifier = ">=0.7.5,<0.8" },
-    { name = "uuid-utils", specifier = ">=0.16.0" },
-    { name = "wtforms", specifier = ">=3.2.1" },
 ]
 
 [[package]]
@@ -295,7 +271,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "bcrypt", specifier = ">=4.3.0" },
-    { name = "cqlalchemy", path = "../cqlalchemy/dist/cqlalchemy-3.29.3-py3-none-any.whl" },
+    { name = "cqlalchemy", git = "https://github.com/stackable-sh/cqlalchemy" },
     { name = "rich", specifier = ">=15.0.0" },
 ]
 

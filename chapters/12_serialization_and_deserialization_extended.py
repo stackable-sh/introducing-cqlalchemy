@@ -39,8 +39,6 @@ class BookSchema(ModelSchema, entity=Book):
     pass 
 
 schema = BookSchema()
-
-
 session = Session()
 
 person = Author(name="Sam Harris", email="reach@samharris.org", publisher="Penguin Random House")
